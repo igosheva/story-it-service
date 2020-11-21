@@ -1,0 +1,30 @@
+.root {
+  font-size: 18px;
+  line-height: 1.1;
+  box-sizing: border-box;
+}
+
+.container {
+  box-sizing: border-box;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+.text {
+  margin: 0;
+}
+
+.link {
+  color: inherit;
+  text-decoration: none;
+}
+
+@media (pointer: fine) {
+  .link:hover {
+    text-decoration: underline;
+  }
+}
